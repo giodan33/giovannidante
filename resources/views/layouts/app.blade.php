@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>DevCompany</title>
+    <title>Giovanni Dante</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
@@ -28,7 +28,7 @@
             <div class="container-fluid">
                 <a href="{{route('home')}}" style="text-decoration: none">
                     <h5 class="mb-0 h1" style="color: #5BC3EB">
-                        BolivianDev
+                        Giovanni Dante
                     </h5>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

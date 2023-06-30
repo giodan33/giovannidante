@@ -9,7 +9,9 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5|^8.0",
+        "ext-curl": "*",
         "beyondcode/laravel-websockets": "^1.12",
+        "fakerphp/faker": "^1.9.1",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
@@ -18,8 +20,7 @@
         "laravel/ui": "^2.4",
         "mateusjunges/laravel-invite-codes": "^1.4",
         "pusher/pusher-php-server": "~4.0",
-        "fakerphp/faker": "^1.9.1",
-        "ext-curl": "*"
+        "tymon/jwt-auth": "^1.0"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
